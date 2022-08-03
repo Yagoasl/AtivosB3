@@ -66,4 +66,4 @@ O arquivo com o código se encontra na pasta `coletaAtivos`, o nome do arquivo �
 
 ## Extra
 
-Ao longo do desenvolvimento criei ao tentar fazer o objetivo principal um historico de dados inserindo as datas de inicio e fim no próprio arquivo. Além do código do ativo. O arquivo com o código se encontra na pasta `coletaAtivos`, o nome do arquivo é `historico.py`.
+Ao longo do desenvolvimento criei ao tentar fazer o objetivo principal um historico de dados inserindo as datas de inicio e fim no próprio arquivo. Além do código do ativo. O arquivo com o código se encontra na pasta `coletaAtivos`, o nome do arquivo é `historicoAtivos.py`.
