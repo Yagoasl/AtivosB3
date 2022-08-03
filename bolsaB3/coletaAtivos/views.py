@@ -20,6 +20,6 @@ def index(request):
     context = {
         'data_acoes': data_acoes,
     }
-    template = loader.get_template('getpapers/index.html')
+    template = loader.get_template('coletaAtivos/index.html')
     return HttpResponse(template.render(context, request))
 '''
