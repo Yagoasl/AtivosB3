@@ -1,4 +1,5 @@
-'''Python, django, pandas, beautifulsoup, openpyxl'''
+''' Coleta parcial de cotação de ativos, salva em um arquivo xlsx.
+Python, pandas, beautifulsoup, openpyxl'''
 
 from django.test import TestCase
 from urllib.request import urlopen

@@ -1,14 +1,25 @@
 from django.db import models
 from datetime import datetime
-'''
+
 class Acoes(models.Model):
-    simbolo = models.CharField(max_length=10)
+    symbol = models.CharField(max_length=10)
     titulo = models.CharField(max_length=100)
     descricao = models.TextField(("Descrição Aqui"))
 
     def __str__(self):
-        return self.simbolo  
+        return self.symbol  
 
+class Precos(models.Model):
+    symbol = models.CharField(max_length=10)
+    date = models.DateTimeField('data publicada')
+    low = models.FloatField()
+    open = models.FloatField()
+    volume = models.FloatField()
+    high = models.FloatField()
+    close = models.FloatField()
+    adjclose = models.FloatField()
+
+'''
 class Ativos(models.Model):
     codigo = models.CharField(max_length=100)
     preco = models.FloatField()
@@ -23,14 +34,3 @@ class Ativos(models.Model):
     funcionarios = models.FloatField()
     setor = models.CharField(max_length=100)
 '''
-
-class ColetaAtivos(models.Model):
-    symbol = models.CharField(max_length=10)
-    date = models.DateTimeField('data publicada')
-    low = models.FloatField()
-    open = models.FloatField()
-    volume = models.FloatField()
-    high = models.FloatField()
-    close = models.FloatField()
-    adjclose = models.FloatField()
-

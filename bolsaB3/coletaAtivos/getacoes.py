@@ -1,3 +1,5 @@
+'''Coleta das ações via yahooquery
+'''
 from yahooquery import Ticker
 from datetime import datetime
 
@@ -35,6 +37,7 @@ def coleta():
     item.income_statement().transpose()
     data = item.history(period="1d")
 
+    data.save()
     
 
     #print(data)

@@ -1,3 +1,7 @@
+''' Acessa o site mas não coleta, a ideia era coletar os dados através do html.
+No entanto, deixei de lado por conta do tempo.
+Python, Selenium'''
+
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -23,7 +27,9 @@ driver.find_element(By.XPATH, "/html/body/div[2]/div[4]/div/div/div/div[2]/div[2
 
 acao = driver.find_element(By.CSS_SELECTOR,"row-arjDAkRm listRow")
 print(acao)
+
 #tables = WebDriverWait(driver, 20).until(EC.presence_of_all_elements_located((By.XPATH, "/html/body/div[3]/div[4]/div/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div/div/table")))
+
 
 '''
 for table in tables:

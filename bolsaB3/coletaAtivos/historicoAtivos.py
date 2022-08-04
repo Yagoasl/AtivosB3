@@ -1,4 +1,4 @@
-'''Pandas, python, coleta nome das empresas de um arquivo e puxa a variação pelas datas impostas'''
+'''Pandas, python. Coleta nome das empresas de um arquivo e puxa a variação pelas datas impostas'''
 import pandas as pd
 import pandas_datareader.data as web
 import datetime as data
