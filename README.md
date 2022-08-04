@@ -66,7 +66,7 @@ Nesta linha de pensamento desenvolvi apenas o codigo com [Selenium](https://www.
 
 O arquivo com o código se encontra na pasta `coletaAtivos`, o nome do arquivo é `teste.py`. Ao longo do código sera possivel ver varias linhas comentadas(são tentativas).
 
-Ainda na proposta do [Selenium](https://www.selenium.dev/), desenvolvi parcialmente uma aplicação que acessa o site, que busca os dados na pagina `https://br.tradingview.com/markets/stocks-brazil/market-movers-all-stocks/` e tenta guardar os dados preentes no html em um arquivo. No entanto, não dei continuidade por falta de tempo.
+Ainda na proposta do [Selenium](https://www.selenium.dev/), desenvolvi parcialmente uma aplicação que acessa o site, que busca os dados na pagina `https://br.tradingview.com/markets/stocks-brazil/market-movers-all-stocks/` e tenta guardar os dados presentes no html em um arquivo. No entanto, não dei continuidade por falta de tempo.
 
 O arquivo com o código se encontra na pasta `coletaAtivos`, o nome do arquivo é `acoes.py`. Ao longo do código sera possivel ver varias linhas comentadas(são tentativas).
 
